@@ -1,0 +1,351 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": [
+    {
+      "title": "人人都要懂的算法设计思想",
+      "activityType": 0,
+      "totalReadersNum": 9,
+      "authorId": {
+        "customerName": "VC橙",
+        "customerTitle": "前端技术团队",
+        "thumbImage": "https://images.gitbook.cn/18214930-e1bb-11ea-8489-2ff8c1993f20",
+        "_id": "5d9da1d290ab7b4cd7c082fd"
+      },
+      "_id": "5f40db22f9fe2a086081301e",
+      "tags": [],
+      "description": "面对当前的大环境，跳槽就业并不容易。单单做好业务开发，已经无法满足企业对中高级前端的要求。从求职角度，你需要在面试前建立自己的算法技术体系。从个人发展的角度，掌握数据结构与算法，有助于更好地阅读源码和设计编写一些复杂的工具。算法并不是...",
+      "isNew": false,
+      "createdAt_str": "08月22日"
+    },
+    {
+      "title": "手写基于 Netty、JavaFX、SpringBoot 的网络调试工具",
+      "activityType": 0,
+      "totalReadersNum": 12,
+      "authorId": {
+        "customerName": "途中的马儿",
+        "customerTitle": "架构师",
+        "thumbImage": "https://images.gitbook.cn/2020-07-01-img_boy%403x.png",
+        "_id": "5f0175dacac9364e8acbb93c"
+      },
+      "_id": "5f3fc50c7ba9f0087822b3f4",
+      "tags": [],
+      "description": "结合最新的 Java 图形界面编程技术 JavaFX，最流行的 Java 网络编程框架 Netty，最流行的 Java 应用开发框架 Spring Boot，我们手写一个 Java 桌面版网络调试工具。  本场 Chat 内容将涉及如...",
+      "isNew": false,
+      "createdAt_str": "08月21日"
+    },
+    {
+      "title": "嵌入式设备上 OpenCV 算法的优化方法",
+      "activityType": 0,
+      "totalReadersNum": 7,
+      "authorId": {
+        "customerName": "禾路",
+        "customerTitle": "图像处理工程师",
+        "thumbImage": "https://images.gitbook.cn/354096e0-1968-11ea-a6ad-efea4b457a99",
+        "_id": "5dba3aee45bcf25b7b2aaf8a"
+      },
+      "_id": "5f3fb16f7ba9f0087822b3d5",
+      "tags": [],
+      "description": "针对在嵌入式设备上如何实现快速的高斯平滑这一具体问题，阐述嵌入式设备上 OpenCV 算法的具体优化方法。本文专业性较强，需要阅读者具备一定图像处理、C++ 和 OpenCV 经验。  内存管理     内存比运算更重要     内存...",
+      "isNew": false,
+      "createdAt_str": "08月21日"
+    },
+    {
+      "title": "Web 安全的基础安全防护",
+      "activityType": 0,
+      "totalReadersNum": 18,
+      "authorId": {
+        "customerName": "rookie",
+        "customerTitle": "工程师",
+        "thumbImage": "https://images.gitbook.cn/77d6b270-8785-11e9-b789-2b890efc773b",
+        "_id": "5cf7a814d8b3b244f176ec6e"
+      },
+      "_id": "5f3dde00ae9e1230788d5fe5",
+      "tags": [],
+      "description": "在我们的项目中，基础的安全防护肯定要的，不然项目对于别人来说相当于无入之境，来去自如。  本 Chat 主要讲一些需要添加的基本安全防护：  接收参数上的校验 代码逻辑处的校验 防爬虫的限流 XSS跨站脚本攻击 防 SQL 注入  还...",
+      "isNew": false,
+      "createdAt_str": "08月20日"
+    },
+    {
+      "title": "微信公众号开发：扩展一个获取实况天气的功能",
+      "activityType": 0,
+      "totalReadersNum": 25,
+      "authorId": {
+        "customerName": "薛定喵君",
+        "customerTitle": "前端工程师",
+        "thumbImage": "https://images.gitbook.cn/2f8875d0-f9e5-11e9-8349-cd2016f766f5",
+        "_id": "5db78b489b9f4c3f6a3424dc"
+      },
+      "_id": "5f3cfaa01f523e2413540aed",
+      "tags": [],
+      "description": "本场 Chat 主要是 Node.js 对微信开发实践，实现为公众号添加一个获取实时天气的功能，可以增加公众号的趣味性。无需购买服务器，可直接在本地对接微信服务器进行测试开发，也可部署到服务器。  本篇 Chat 主要内容：通过 Ko...",
+      "isNew": false,
+      "createdAt_str": "08月19日"
+    },
+    {
+      "title": "Python 面向对象编程",
+      "activityType": 0,
+      "totalReadersNum": 41,
+      "authorId": {
+        "customerName": "扎克斯",
+        "customerTitle": "Java开发工程师",
+        "thumbImage": "https://images.gitbook.cn/ef501ac0-da1a-11e9-a7ef-ddf0c6208feb",
+        "_id": "5d823592a883f57676338b3b"
+      },
+      "_id": "5f3c7fb75da670242c827a11",
+      "tags": [],
+      "description": "Python 是一门自由的语言，我们可以用 Python 实现面向过程编程、函数式编程和面向对象编程。在实现一些小功能时，我们可以考虑使用面向过程编程或者函数式编程。但是从长远来看，在大项目上我们应该使用面向对象编程，这样编写的程序才...",
+      "isNew": false,
+      "createdAt_str": "08月19日"
+    },
+    {
+      "title": "大型商城是如何设计秒杀的？",
+      "activityType": 0,
+      "totalReadersNum": 22,
+      "authorId": {
+        "customerName": "琉忆",
+        "customerTitle": "PHP高级工程师",
+        "thumbImage": "https://images.gitbook.cn/ce0e0aa0-3585-11e9-8647-234061084a6f",
+        "_id": "5c6e15e9796f4d1e4f103253"
+      },
+      "_id": "5f3bf94d5da670242c8278d7",
+      "tags": [],
+      "description": "我们只要在网上购物过，就一定知道商城秒杀功能。那么对于一个大型的商城来说，秒杀架构是如何设计的呢？竟然能够保证这么高的访问，并且能够保证前几名的用户能够成功购买到商品。  本次 Chat 的内容： 秒杀场景需要考虑的需求和功能 秒杀场...",
+      "isNew": false,
+      "createdAt_str": "08月18日"
+    },
+    {
+      "title": "Redis 是如何保证高可用的？",
+      "activityType": 0,
+      "totalReadersNum": 49,
+      "authorId": {
+        "customerName": "琉忆",
+        "customerTitle": "PHP高级工程师",
+        "thumbImage": "https://images.gitbook.cn/ce0e0aa0-3585-11e9-8647-234061084a6f",
+        "_id": "5c6e15e9796f4d1e4f103253"
+      },
+      "_id": "5f3bf7f21f523e2413540722",
+      "tags": [],
+      "description": "Redis 使用的场景频率非常高，那么在实际的工作过程中，我们是怎样保证它高可用的呢？本次 Chat 主要介绍 Redis 提供的一些高可用解决方案，针对这些高可用方案进行分析，分析它们的优缺点和使用情况。  本次 Chat 分享的内...",
+      "isNew": false,
+      "createdAt_str": "08月18日"
+    },
+    {
+      "title": "实时数仓|基于 Flink 1.11 的 SQL 构建实时数仓探索实践",
+      "activityType": 0,
+      "totalReadersNum": 51,
+      "authorId": {
+        "customerName": "西贝木土",
+        "customerTitle": "大数据开发工程师",
+        "thumbImage": "https://images.gitbook.cn/FoU-dmPHvPMZwyDmLoL8LaixEk7H",
+        "_id": "5addf38a63f82e4ccc2aa241"
+      },
+      "_id": "5f3a7fee7332f902d12b5733",
+      "tags": [
+        {
+          "_id": "5d8b88d868f48b27a7ee9bf3",
+          "tagname": "Flink"
+        }
+      ],
+      "description": "实时数仓主要是为了解决传统数仓数据时效性低的问题，实时数仓通常会用在实时的 OLAP 分析、实时的数据看板、业务指标实时监控等场景。虽然关于实时数仓的架构及技术选型与传统的离线数仓会存在差异，但是关于数仓建设的基本方法论是一致的。本文...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "一篇文章搞懂为什么 HTTPS 比 HTTP 更安全",
+      "activityType": 0,
+      "totalReadersNum": 29,
+      "authorId": {
+        "customerName": "琉忆",
+        "customerTitle": "PHP高级工程师",
+        "thumbImage": "https://images.gitbook.cn/ce0e0aa0-3585-11e9-8647-234061084a6f",
+        "_id": "5c6e15e9796f4d1e4f103253"
+      },
+      "_id": "5f3a77658ec9ee2414b3bcf5",
+      "tags": [],
+      "description": "我们都知道 HTTPS 比 HTTP 多了一层 SSL 的安全层进行通讯，所以 HTTPS 安全性比 HTTP 更高。那么为什么多了这一层（SSL）就可以更安全的进行通讯呢？本文结合两者通讯的方式，SSL 的加密方式进行详细讲解，从底...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "App 自动化测试框架 Appium",
+      "activityType": 0,
+      "totalReadersNum": 31,
+      "authorId": {
+        "customerName": "润森",
+        "customerTitle": "工程师",
+        "thumbImage": "http://images.gitbook.cn/Fvw9kcUwd6vS9dPoQ6T2x64Df6UY",
+        "_id": "5cbc8c3d3e954679813f0458"
+      },
+      "_id": "5f3a67cf1f523e241354017d",
+      "tags": [],
+      "description": "Appium 作为一款成熟的移动端自动化测试框架，其功能日益强大，同样后边有个活跃的社区在支持 Appium 的发展。Appium 用于自动化 iOS 手机 、 Android 手机和 Windows 桌面平台上的原生、移动 Web ...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "2020 年 MySQL 数据库面试题总结（50 道题含答案解析）",
+      "activityType": 0,
+      "totalReadersNum": 202,
+      "authorId": {
+        "customerName": "程序员追风",
+        "customerTitle": "架构师",
+        "thumbImage": "https://images.gitbook.cn/a452ec50-62d7-11ea-9b0c-77c159be6e50",
+        "_id": "5e679d54260565154e7af65b"
+      },
+      "_id": "5f3a3559b11c44311e9ac135",
+      "tags": [
+        {
+          "_id": "5d8b88cc68f48b27a7ee9a92",
+          "tagname": "程序员"
+        }
+      ],
+      "description": "现在不管是大公司还是小公司，去面试都会问到 MySQL 数据库的知识，大家面试的时候这方面的知识一定要提前做好储备。  在本场 Chat 中，会讲到如下内容： 数据库基础知识 数据类型 锁 索引  适合人群： 正在学习 Java 开发...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "Java 多线程编程核心讲解",
+      "activityType": 0,
+      "totalReadersNum": 81,
+      "authorId": {
+        "customerName": "叶志陈",
+        "customerTitle": "Java、Android 开发工程师",
+        "thumbImage": "https://images.gitbook.cn/0b10a9e0-e466-11ea-9e67-3d4549ae97a3",
+        "_id": "5b25349f2295e2311bb80b41"
+      },
+      "_id": "5f3a33ebb750402391bd22d5",
+      "tags": [],
+      "description": "在单线程编程中，如果程序要执行的操作需要满足一定的运行条件后才可以执行，那么我们可以将目标操作放到一个 if 语句中，让目标操作只有在运行条件得以满足时才会被执行。但是在多线程世界里，我们需要面对的挑战以及困难都会“丰富很多”，我们需...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "收藏！ 一文彻底了解 Ribbon：微服务负载均衡",
+      "activityType": 0,
+      "totalReadersNum": 61,
+      "authorId": {
+        "customerName": "酸奶",
+        "customerTitle": "java 高级开发工程师",
+        "thumbImage": "http://images.gitbook.cn/Fjos3edEGXdrscTaVcEpkRHidLiv",
+        "_id": "59e87ef381f8273047f18e19"
+      },
+      "_id": "5f3a32f7aced402379f6a368",
+      "tags": [],
+      "description": "Spring Cloud 是一站式微服务解决方案。很多公司都在使用Spring Cloud 组件。我们想要学习 Spring Cloud 微服务架构，就需要学习他们的组件。包含：注册中心、负载均衡、熔断处理、过程调用、网关服务、配置中...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "收藏！ 一文彻底彻底了解 Eureka：微服务注册中心",
+      "activityType": 0,
+      "totalReadersNum": 60,
+      "authorId": {
+        "customerName": "酸奶",
+        "customerTitle": "java 高级开发工程师",
+        "thumbImage": "http://images.gitbook.cn/Fjos3edEGXdrscTaVcEpkRHidLiv",
+        "_id": "59e87ef381f8273047f18e19"
+      },
+      "_id": "5f3a32bbd91c3a237af76ebb",
+      "tags": [],
+      "description": "Spring Cloud 是一站式微服务解决方案。很多公司都在使用Spring Cloud 组件。我们想要学习 Spring Cloud 微服务架构，就需要学习他们的组件。包含：注册中心、负载均衡、熔断处理、过程调用、网关服务、配置中...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "从 0 到 1 实现前后端分离项目的 GitLab-CI 流程",
+      "activityType": 0,
+      "totalReadersNum": 31,
+      "authorId": {
+        "customerName": "小码哥",
+        "customerTitle": "Java 技术专家",
+        "thumbImage": "https://images.gitbook.cn/FteRPRVZVoEmhPO7j6N7N1HtsH2o",
+        "_id": "5db2b92454851172032efda5"
+      },
+      "_id": "5f3a1ac7b750402391bd2271",
+      "tags": [
+        {
+          "_id": "5d8b88d768f48b27a7ee9be5",
+          "tagname": "GitLab"
+        }
+      ],
+      "description": "从 0 到 1 把 GitLab-CI 流程环境搭建，彻底抛弃 Travis-CI，最大的坑还是墙外的东西太慢了, 总是 Timeout。  整个过程分为如下几步： 如何在一个 1 核 2G 的云服务器上搭建 GitLab：十分钟搭建...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "从底层重学 Java 之 BigInteger 大整数",
+      "activityType": 0,
+      "totalReadersNum": 59,
+      "authorId": {
+        "customerName": "草宝虫",
+        "customerTitle": "架构师",
+        "thumbImage": "https://images.gitbook.cn/0fe40cf0-77d3-11ea-8856-57a8f16560a7",
+        "_id": "5c9db447ab5f2a390861de46"
+      },
+      "_id": "5f395a80aced402379f6a0ca",
+      "tags": [],
+      "description": "从底层，从原理，我们来重学一次 Java。BigInteger 是大整数计算类，是 BigDecimal 用于存储大数属性的类型，BigDecimal 中很多计算就是基于 BigInteger 的函数进行计算的，采用了多种优化的算法实...",
+      "isNew": false,
+      "createdAt_str": "08月17日"
+    },
+    {
+      "title": "Java 后端面试题目精解，助你拿到心仪 offer",
+      "activityType": 0,
+      "totalReadersNum": 73,
+      "authorId": {
+        "customerName": "杨老师",
+        "customerTitle": "架构师",
+        "thumbImage": "http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83erSjYpWx8qVtrLiaCD2FXibr9Jw2icFaeGCcgeXgGsIGQRx2wbwHFv3hjvGa8qEvrU3iciaibc7N1b7mdDA/132",
+        "_id": "5ca412a13f3e4b3fdb478947"
+      },
+      "_id": "5f394ce0aced402379f6a0b0",
+      "tags": [],
+      "description": "又到了秋招的季节，今年的就业形势整体非常严峻，由于下游公司的广告预算等大幅度减少，对于一向依赖广告收入的互联网公司是有很大影响的，所以很多公司无论社招还是校招 headcount 都减少了，因此竞争十分激烈,如何拿到心仪的 offer...",
+      "isNew": false,
+      "createdAt_str": "08月16日"
+    },
+    {
+      "title": "抠一抠 JS 中的那些细节",
+      "activityType": 0,
+      "totalReadersNum": 42,
+      "authorId": {
+        "customerName": "wangweijun",
+        "customerTitle": "Java开发工程师",
+        "thumbImage": "https://images.gitbook.cn/e2c373e0-e97b-11e9-8926-8f8e1fb3395a",
+        "_id": "5b20f0d691ca5411a04ae2c0"
+      },
+      "_id": "5f391622b750402391bd1f31",
+      "tags": [],
+      "description": "本场 Chat 我们来一起深究一下 JS 中的一些细节，比如以下几个应用场景： 鼠标移动事件 鼠标拖拽事件 鼠标滚轮事件 键盘事件  每个事件都会对应一个实际的用例，并且讲解这些事件在 IE8 及以下、IE8 以上版本、Chrome、...",
+      "isNew": false,
+      "createdAt_str": "08月16日"
+    },
+    {
+      "title": "Vue 项目：含权限管理实现的整个项目架构，及打包部署整体流程",
+      "activityType": 0,
+      "totalReadersNum": 83,
+      "authorId": {
+        "customerName": "doubleyong",
+        "customerTitle": "项目经理",
+        "thumbImage": "https://images.gitbook.cn/2020-07-01-img_girl%403x.png",
+        "_id": "5f07dd700c8a5a547a458a08"
+      },
+      "_id": "5f38eec0aced402379f69f31",
+      "tags": [],
+      "description": "Vue 框架中，如何实现权限管理。  技术栈：Vue-Cli 4.0+Vuex+Axios-Vue-Router+Element-UI  本 Chat 中，会讲到如下内容： 使用 Vue-Cli 4.0 搭建项目，完善项目结构 使用 ...",
+      "isNew": false,
+      "createdAt_str": "08月16日"
+    }
+  ],
+  "isEnd": false,
+  "tags": [],
+  "series": [],
+  "topics": [],
+  "currentTag": {
+    "tagName": "全部",
+    "hasOrdered": false,
+    "category": "",
+    "newNum": 17
+  }
+}

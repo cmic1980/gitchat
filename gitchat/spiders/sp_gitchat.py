@@ -65,6 +65,9 @@ class SpGitChat(scrapy.Spider):
         data = obj['data']
         for item in data:
             article_id = item['_id']
+            title = item["title"]
+            cb_kwargs = {"article_id": article_id, "title": title}
+
             request_url = 'https://gitbook.cn/gitchat/activity/' + article_id
             body = {'activityId': article_id,
                     'requestUrl': request_url,
@@ -81,11 +84,13 @@ class SpGitChat(scrapy.Spider):
                                  callback=self.parse_active_info,
                                  cookies=self.cookie,
                                  headers=self.headers,
-                                 cb_kwargs=dict(article_id=article_id))
+                                 cb_kwargs=cb_kwargs)
 
-    def parse_active_info(self, response, article_id):
+    def parse_active_info(self, response, article_id, title):
         detail_url = response.css(".buy_btns_view a::attr('href')").extract_first()
         if detail_url is None:
+            text = response.css(".buy_btns_view div::text").extract_first()
+            print('{} - {}'.format(text, title))
             pass
         else:
             detail_url = 'https://gitbook.cn' + detail_url

@@ -91,4 +91,6 @@ COOKIE = {'customerId': '5c7e459d24670c303bf1bba9',
               'customerToken': 'a4e73430-3f2b-11e9-ab86-d9b554a5bb95',
               'isLogin': 'yes'}
 
-MAX_OFFSET = 2
+MAX_OFFSET = 3
+
+WKHTMLTOPDF_PATH = 'D:/dev/wkhtmltox/bin/wkhtmltopdf.exe'

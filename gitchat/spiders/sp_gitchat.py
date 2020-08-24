@@ -1,6 +1,6 @@
 import scrapy
 import json
-from gitchat.items import ArticleItem
+import pdfkit
 import gitchat.settings as settings
 
 
@@ -62,17 +62,41 @@ class SpGitChat(scrapy.Spider):
         activity_url = 'https://gitbook.cn/m/mazi/vip/order/activity'
         json_content = response.body.decode('utf-8')
         obj = json.loads(json_content)
-        data = obj["data"]
+        data = obj['data']
         for item in data:
-            id = item['_id']
-            body = {'activityId': id,
-                "requestUrl": "https://gitbook.cn/gitchat/activity/" + id,
-                "sceneId": "",
-                "type": "chat"}
+            article_id = item['_id']
+            request_url = 'https://gitbook.cn/gitchat/activity/' + article_id
+            body = {'activityId': article_id,
+                    'requestUrl': request_url,
+                    'sceneId': '',
+                    'type': 'chat'}
 
             yield scrapy.Request(url=activity_url,
-                                 callback=self.parse,
                                  cookies=self.cookie,
                                  headers=self.headers,
                                  method='POST',
-                                 body= json.dumps(body))
+                                 body=json.dumps(body))
+
+            yield scrapy.Request(url=request_url,
+                                 callback=self.parse_active_info,
+                                 cookies=self.cookie,
+                                 headers=self.headers,
+                                 cb_kwargs=dict(article_id=article_id))
+
+    def parse_active_info(self, response, article_id):
+        detail_url = response.css(".buy_btns_view a::attr('href')").extract_first()
+        if detail_url is None:
+            pass
+        else:
+            detail_url = 'https://gitbook.cn' + detail_url
+
+            options = {'cookie': []}
+            for item in settings.COOKIE.items():
+                options['cookie'].append(item)
+
+            config = pdfkit.configuration(wkhtmltopdf=settings.WKHTMLTOPDF_PATH)
+            path = './data/{}.pdf'.format(article_id)
+            pdfkit.from_url(detail_url, path,
+                            configuration=config, options=options)
+
+            pass
